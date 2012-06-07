@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-TRACK="exoplanet,exoplanets"
+TRACK="蜘蛛,araña,spider,عنكبوت,मकड़ी,labah-labah,aranha,паук,クモ,spinne,araignée,ragno"
 LOGIN=`cat login`
 
 # Tracking
