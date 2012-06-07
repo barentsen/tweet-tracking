@@ -1,6 +1,7 @@
 tweet-tracking
 ==============
 
-Scripts for data mining Twitter
+Scripts for tracking keywords on Twitter.
 
-To run this application on EC2 micro instances; mount a persistent EBS volume under the /data mountpoint.
+Author: Geert Barentsen (www.barentsen.be)
+Dependencies: curl, tmux, rotatelogs (apache-utils).
