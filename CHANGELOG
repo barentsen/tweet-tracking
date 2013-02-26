@@ -1,2 +1,3 @@
 2011-09-01: Changed API to use https:// instead of http://
 2012-06-07: Moved to Amazon EC2 & changed rotatelogs to a daily frequency.
+2013-02-26: Added meteor keywords "метеор,метеорит,نيزك"
