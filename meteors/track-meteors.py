@@ -13,15 +13,15 @@ import secrets
 class CustomStreamListener(tweepy.StreamListener):
 
     def on_data(self, data):
-        print data
+        print(data)
         return True
 
     def on_error(self, status_code):
-        print >> sys.stderr, 'Encountered error with status code:', status_code
+        sys.stderr.write('Encountered error with status code: {}'.format(status_code))
         return True # Don't kill the stream
 
     def on_timeout(self):
-        print >> sys.stderr, 'Timeout...'
+        sys.stderr.write('Timeout...')
         return True # Don't kill the stream
 
 

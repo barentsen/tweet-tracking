@@ -20,7 +20,7 @@ class CustomStreamListener(tweepy.StreamListener):
         return True # Don't kill the stream
 
     def on_timeout(self):
-        print >> sys.stderr, 'Timeout...'
+        sys.stderr.write('Timeout...')
         return True # Don't kill the stream
 
 
